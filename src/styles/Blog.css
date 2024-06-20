@@ -1,0 +1,28 @@
+.container{
+    padding: 50px;
+    justify-content: center;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+
+
+.blog{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    gap: 10%;
+}
+
+.blog-image {
+    margin-top: 20px;
+    font-size: 50px;
+    
+}
+
+button{
+    border: none;
+    color:  rgb(41, 41, 179);
+}
