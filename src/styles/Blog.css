@@ -26,3 +26,9 @@ button{
     border: none;
     color:  rgb(41, 41, 179);
 }
+
+@media (max-width: 900px) {
+    .container {
+        margin-top: 40%;;
+    }
+}

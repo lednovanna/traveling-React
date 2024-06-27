@@ -95,3 +95,12 @@
     background-color: rgb(74, 155, 155);
     border:2px solid rgb(29, 68, 83);
 }
+
+@media (max-width: 900px) {
+    .aside-tab {
+        margin-top: 46%;
+        display: flex;
+        justify-content: center ;
+    }
+
+}

@@ -96,7 +96,8 @@ margin: 20px;
 }
 
 .contact-button {
-    display: inline-block;
+    display: block;
+    justify-content: center;
     margin-top: 13%;
     margin-left: 7%;
 }
@@ -115,14 +116,18 @@ margin: 20px;
    opacity: 0.5; 
 }
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
     .content {
-        height: 100%;
+        
+        width: 100%; 
         flex-direction: column-reverse;
+        margin-top: 100%;
+        margin-right: 10%;
+        justify-content: center;
     }
 
     .left-side {
-        margin-top: 20px;
+        margin-top: 40%;
         flex-direction: row;
         width: 100%;
         justify-content: center;
@@ -136,5 +141,15 @@ margin: 20px;
 
     .left-side::before {
         display: none;
+    }
+}
+
+@media (max-width: 450px) {
+    .content {
+        
+        width: 100%; 
+        flex-direction: column-reverse;
+        margin-top: 100%;
+        justify-content: center;
     }
 }

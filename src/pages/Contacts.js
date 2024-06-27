@@ -35,13 +35,11 @@ const telephoneHandler = (e) => {
     }
 
 
-const blurHandler = (e) =>  {
+const blurHandler = (e) => {
     switch (e.target.name) {
-        case 'email':
-            setEmailDirty (true)
+        case 'email':setEmailDirty (true)
             break
-            case 'telephone':
-                setTelephoneDirty (true)
+            case 'telephone':setTelephoneDirty (true)
                 break
     }
 }

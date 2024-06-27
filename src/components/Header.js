@@ -16,14 +16,18 @@ import "../styles/Header.css";
       return (
         <Router>
           <nav className="nav">
-        
+         
         
         <div className="header-logo">
            <img src={logo} height="30" width="30" className="header-logo" alt="logo"/>
         </div>
-        <div className="nav-menu">
 
-           
+        <input type="checkbox" id="checkbox_toggle"/>
+          <label for="checkbox_toggle" className="burger"><span className="burger-line"></span></label>
+        
+        <div className="nav-menu">
+          
+        
             <Link to="/home" className="link" >Home</Link>
             <Link to="/about" className="link">About us</Link>
             <Link to="/contacts" className="link" >Contacts</Link>
@@ -35,12 +39,16 @@ import "../styles/Header.css";
 
             </input>
             <button className="header-button">Search</button>
+
           </div>  
+          
+         
         </form>
         
         
      </nav>
             <Routes>
+            <Route path="/" element = {<Home/>}/>
                 <Route path="/Home" element = {<Home/>}/>
                 <Route path="/About" element = {<About/>}/>
                 <Route path="/Contacts" element = {<Contacts/>}/>

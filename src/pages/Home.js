@@ -1,11 +1,14 @@
 
 import SliderBox from "../components/SliderBox";
 
+
 export default function Home() {
 
     
 
     return (
+
+        
     <div >
         
         <SliderBox />

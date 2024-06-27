@@ -1,7 +1,7 @@
  import {useState} from 'react';
  import TabProgram from '../tabs/TabProgram';
  import TabTeam from '../tabs/TabTeam';
- import TabThree from '../tabs/TabThree';
+ import TabPartners from '../tabs/TabPartners';
  import Tabs from '../tabs/Tabs';
  import '../styles/About.css'
 
@@ -17,7 +17,7 @@ export default function About() {
     <Tabs setActiveTab = {setActiveTab} />
     {activeTab === 0 && <TabProgram/>}
     {activeTab === 1 && <TabTeam/>}
-    {activeTab === 2 && <TabThree/>}
+    {activeTab === 2 && <TabPartners/>}
     </div>
 
      
