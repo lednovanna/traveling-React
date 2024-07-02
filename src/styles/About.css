@@ -28,9 +28,16 @@
     opacity: 0.5;
 }
 
-.card{
-    display: grid;
-    grid-template-columns: repeat(auto-fill, 250px);
+.card-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   grid-template-columns: repeat(auto-fill, 250px); 
+}
+
+/*.card{
+    
+    
     gap: 25px;
     width: 100%;
     justify-content: center;
@@ -103,4 +110,4 @@
         justify-content: center ;
     }
 
-}
+}*/

@@ -3,14 +3,16 @@ export const data = [
     id: 1,
     image: "https://images.pexels.com/photos/39853/woman-girl-freedom-happy-39853.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     title: "Sunset",
-    description: "Lorem dorem unslobean dorem unslobean dorem unslobean"
+    description: "Lorem dorem unslobean dorem unslobean dorem unslobean",
+    search: "sea"
     },
 
     {
         id: 2,
         image: "https://images.pexels.com/photos/214574/pexels-photo-214574.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         title: "Mountain",
-        description: "Lorem dorem unslobean dorem unslobean dorem unslobean"
+        description: "Lorem dorem unslobean dorem unslobean dorem unslobean",
+        search: "mountain"
         },
 
         {
@@ -34,7 +36,7 @@ export const data = [
                     },
 
                     {
-                      id: 5,
+                      id: 6,
                       image: "https://images.pexels.com/photos/1179156/pexels-photo-1179156.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
                       title: "Welocme to Maldives",
                       description: "Lorem dorem unslobean dorem unslobean dorem unslobean"

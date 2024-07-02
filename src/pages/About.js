@@ -3,25 +3,25 @@
  import TabTeam from '../tabs/TabTeam';
  import TabPartners from '../tabs/TabPartners';
  import Tabs from '../tabs/Tabs';
+ 
  import '../styles/About.css'
 
 
 export default function About() {
 
  const [activeTab, setActiveTab] = useState (0);
+
+ 
  
 
     return (
         <div className="aside-tab" >
-        <div >
+        
     <Tabs setActiveTab = {setActiveTab} />
     {activeTab === 0 && <TabProgram/>}
     {activeTab === 1 && <TabTeam/>}
     {activeTab === 2 && <TabPartners/>}
     </div>
-
-     
-      </div>
     
 
     );

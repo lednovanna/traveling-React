@@ -1,0 +1,74 @@
+.tab-program {
+    text-align: center;
+    padding: 20px;
+}
+
+.category-buttons {
+    margin-bottom: 20px;
+}
+
+.category-buttons button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: rgb(29, 68, 83);
+    border: 2px solid rgb(74, 155, 155);
+    color: #f6f6f6;
+    border: none;
+    border-radius: 5px;
+}
+
+.category-buttons button:hover {
+    background-color: rgb(74, 155, 155);
+    border:2px solid rgb(29, 68, 83);
+}
+
+.card-grid {
+   display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fill, 300px); 
+}
+
+.card {
+     
+    width: 300px;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-container {
+    padding: 20px;
+    background-color: #fff;
+    
+    
+}
+
+.card-top img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.card-title h4 {
+    margin: 10px 0;
+}
+
+.card-description {
+    margin: 10px 0;
+}
+
+.card-btn {
+    padding: 10px 20px;
+    background-color: rgb(29, 68, 83);
+    border: 2px solid rgb(74, 155, 155);
+    color: #f6f6f6;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.card-btn:hover {
+    background-color: rgb(74, 155, 155);
+    border:2px solid rgb(29, 68, 83);
+}
