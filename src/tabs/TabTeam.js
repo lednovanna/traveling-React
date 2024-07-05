@@ -1,4 +1,4 @@
-import '../styles/Team.css'
+import './Team.css'
 
 const TabTeam  = () => {
     return (

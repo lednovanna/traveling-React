@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import '../styles/Program.css';
+import './Program.css';
 
 const TabProgram = () => {
     const [category, setCategory] = useState('all');

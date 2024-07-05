@@ -3,7 +3,7 @@ import { FaBloggerB } from "react-icons/fa6";
 import { GrBlog } from "react-icons/gr";
 import { SiMicrodotblog } from "react-icons/si";
 import { useState } from 'react';
-import '../styles/Blog.css';
+import './Blog.css';
 
 function ExpandableText({ children }) {
     const [isExpanded, setIsExpanded] = useState(false);

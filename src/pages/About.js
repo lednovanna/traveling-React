@@ -4,7 +4,7 @@
  import TabPartners from '../tabs/TabPartners';
  import Tabs from '../tabs/Tabs';
  
- import '../styles/About.css'
+ import './About.css'
 
 
 export default function About() {

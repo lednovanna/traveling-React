@@ -1,4 +1,4 @@
-import '../styles/Contacts.css';
+import './Contacts.css';
 import { useState } from "react";
 import { IoHome } from "react-icons/io5";
 import { FaPhone } from "react-icons/fa6";

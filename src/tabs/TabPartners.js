@@ -1,4 +1,4 @@
-import '../styles/Partners.css'
+import './Partners.css'
 
 const TabThree  = () => {
     return (

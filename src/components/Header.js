@@ -5,7 +5,7 @@ import Home from "../pages/Home";
 import Contacts from "../pages/Contacts";
 import Blog from "../pages/Blog";
 
-import "../styles/Header.css";
+import "./Header.css";
   import{   BrowserRouter as Router,
     Routes,
     Route,

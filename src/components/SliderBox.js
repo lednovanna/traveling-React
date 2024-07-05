@@ -1,6 +1,6 @@
 import {useState} from "react";
 import {data} from "../data";
-import '../styles/Header.css'
+import './Header.css';
 import { IoIosArrowBack } from "react-icons/io";
 import { IoIosArrowForward } from "react-icons/io";
 
